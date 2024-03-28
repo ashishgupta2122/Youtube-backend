@@ -1,14 +1,18 @@
 {
   "name": "chai-aur-backend",
   "version": "1.0.0",
-  "description": "A code is creted for backend ",
+  "description": "A code is creafted for backend ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript"
   ],
   "author": "Ashish Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
